@@ -13,7 +13,7 @@ while option == 0:
 		option = 0
 
 system("clear")#change "clear" into "cls" if you using windows
-p1 = str(input("r/s/p: "))#input for rock scissor and paper
+p1 = str(input("player 1 >> r/s/p: "))#input for rock scissor and paper
 system("clear")
 if option == 1:#pvp
 	p2 = str(input("player 2 >> r/s/p: "))
