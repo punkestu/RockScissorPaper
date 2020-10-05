@@ -67,7 +67,7 @@ while True:
 
 	print(status)
 	option = str(input("do you want to play again?[y/n]: "))#continue or not?
-	if option != "y" or option != "Y":
+	if option != "y" and option != "Y":
 		break;
 
 system("clear")
