@@ -19,9 +19,9 @@ while True:
 	system("clear")#change "clear" into "cls" if you using windows
 	p1 = str(input("player 1 >> r/s/p: "))#input for rock scissor and paper
 	system("clear")
-	if option == 1:#pvp
+	if option == "1":#pvp
 		p2 = str(input("player 2 >> r/s/p: "))
-	if option == 2:
+	if option == "2":
 		i=0
 		for i in range(100):
 			val = random.randint(1,9)#random for com decicion
@@ -44,7 +44,7 @@ while True:
 		if p2 == "s":
 			status = "player 1 win"
 		if p2 == "p":
-			if option == 1:
+			if option == "1":
 				status = "player 2 win"
 			else:
 				status = "com win"
@@ -52,7 +52,7 @@ while True:
 		if p2 == "p":
 			status = "player 1 win"
 		if p2 == "r":
-			if option == 1:
+			if option == "1":
 				status = "player 2 win"
 			else:
 				status = "com win"
@@ -60,7 +60,7 @@ while True:
 		if p2 == "r":
 			status = "player 1 win"
 		if p2 == "s":
-			if option == 1:
+			if option == "1":
 				status = "player 2 win"
 			else:
 				status = "com win"
